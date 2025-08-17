@@ -93,28 +93,28 @@ export const mockPlaylists = [
   {
     id: 1,
     name: "Today's Top Hits",
-    description: "The most played songs right now.",
+    description: "Die With A Smile is on top of the Hottest 50!",
     image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop",
     songs: 50
   },
   {
     id: 2,
     name: "RapCaviar",
-    description: "New music from Lil Baby, Future and more.",
+    description: "New music from Bad Bunny, Future and more.",
     image: "https://images.unsplash.com/photo-1445985543470-41fba5c3144a?w=300&h=300&fit=crop",
     songs: 65
   },
   {
     id: 3,
-    name: "Pop Rising",
-    description: "The next generation of pop superstars.",
+    name: "Hot Hits USA",
+    description: "The most popular songs in the United States.",
     image: "https://images.unsplash.com/photo-1487180144351-b8472da7d491?w=300&h=300&fit=crop",
-    songs: 42
+    songs: 50
   },
   {
     id: 4,
-    name: "All Out 2010s",
-    description: "The biggest songs of the 2010s.",
+    name: "Pop Rising",
+    description: "New pop music from Sabrina Carpenter, Chappell Roan and more.",
     image: "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=300&h=300&fit=crop",
     songs: 75
   }
