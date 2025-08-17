@@ -53,39 +53,39 @@ export const mockTrendingSongs = [
 export const mockPopularArtists = [
   {
     id: 1,
-    name: "The Weeknd",
+    name: "Bruno Mars",
     image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop",
-    followers: "85M"
+    followers: "150M"
   },
   {
     id: 2,
-    name: "Taylor Swift",
+    name: "The Weeknd",
     image: "https://images.unsplash.com/photo-1445985543470-41fba5c3144a?w=200&h=200&fit=crop",
-    followers: "72M"
+    followers: "126M"
   },
   {
     id: 3,
-    name: "Drake",
+    name: "Lady Gaga",
     image: "https://images.unsplash.com/photo-1487180144351-b8472da7d491?w=200&h=200&fit=crop",
-    followers: "65M"
+    followers: "124M"
   },
   {
     id: 4,
-    name: "Bad Bunny",
+    name: "Billie Eilish",
     image: "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=200&h=200&fit=crop",
-    followers: "58M"
+    followers: "108M"
   },
   {
     id: 5,
-    name: "Billie Eilish",
+    name: "Bad Bunny",
     image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop",
-    followers: "45M"
+    followers: "94M"
   },
   {
     id: 6,
-    name: "Ed Sheeran",
+    name: "Taylor Swift",
     image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop",
-    followers: "42M"
+    followers: "92M"
   }
 ];
 
