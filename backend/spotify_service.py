@@ -3,6 +3,12 @@ from spotipy.oauth2 import SpotifyClientCredentials, SpotifyOAuth
 import os
 from typing import Dict, List, Optional
 import logging
+from dotenv import load_dotenv
+from pathlib import Path
+
+# Load environment variables
+ROOT_DIR = Path(__file__).parent
+load_dotenv(ROOT_DIR / '.env')
 
 logger = logging.getLogger(__name__)
 
@@ -11,6 +17,10 @@ class SpotifyService:
         self.client_id = os.getenv('SPOTIFY_CLIENT_ID')
         self.client_secret = os.getenv('SPOTIFY_CLIENT_SECRET')
         self.redirect_uri = os.getenv('REDIRECT_URI')
+        
+        if not self.client_id or not self.client_secret:
+            logger.error(f"Missing Spotify credentials. Client ID: {self.client_id}, Client Secret: {'***' if self.client_secret else None}")
+            raise ValueError("Spotify credentials not found in environment variables")
         
         # Client credentials for app-only requests (no user auth needed)
         self.client_credentials_manager = SpotifyClientCredentials(
