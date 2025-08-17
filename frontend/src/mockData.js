@@ -2,51 +2,51 @@
 export const mockTrendingSongs = [
   {
     id: 1,
-    title: "Blinding Lights",
-    artist: "The Weeknd",
-    album: "After Hours",
+    title: "Die With A Smile",
+    artist: "Lady Gaga, Bruno Mars",
+    album: "Die With A Smile",
     image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop",
-    duration: "3:20"
+    duration: "4:11"
   },
   {
     id: 2,
-    title: "Watermelon Sugar",
-    artist: "Harry Styles",
-    album: "Fine Line",
+    title: "APT.",
+    artist: "ROSÉ, Bruno Mars",
+    album: "rosie",
     image: "https://images.unsplash.com/photo-1445985543470-41fba5c3144a?w=300&h=300&fit=crop",
-    duration: "2:54"
+    duration: "2:49"
   },
   {
     id: 3,
-    title: "Good 4 U",
-    artist: "Olivia Rodrigo",
-    album: "SOUR",
+    title: "Birds Of A Feather",
+    artist: "Billie Eilish",
+    album: "HIT ME HARD AND SOFT",
     image: "https://images.unsplash.com/photo-1487180144351-b8472da7d491?w=300&h=300&fit=crop",
-    duration: "2:58"
+    duration: "3:30"
   },
   {
     id: 4,
-    title: "Stay",
-    artist: "The Kid LAROI, Justin Bieber",
-    album: "F*CK LOVE 3: OVER YOU",
+    title: "DTMF",
+    artist: "Bad Bunny",
+    album: "DeBÍ TiRAR MáS FOToS",
     image: "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=300&h=300&fit=crop",
-    duration: "2:21"
+    duration: "3:45"
   },
   {
     id: 5,
-    title: "Heat Waves",
-    artist: "Glass Animals",
-    album: "Dreamland",
+    title: "A Bar Song (Tipsy)",
+    artist: "Shaboozey",
+    album: "Where I've Been, Isn't Where I'm Going",
     image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=300&h=300&fit=crop",
-    duration: "3:58"
+    duration: "2:42"
   },
   {
     id: 6,
-    title: "Anti-Hero",
-    artist: "Taylor Swift",
-    album: "Midnights",
+    title: "Espresso",
+    artist: "Sabrina Carpenter",
+    album: "Short n' Sweet",
     image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop",
-    duration: "3:20"
+    duration: "2:55"
   }
 ];
 
