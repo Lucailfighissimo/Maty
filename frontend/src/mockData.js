@@ -173,10 +173,10 @@ export const mockRecentlyPlayed = [
 
 export const mockCurrentTrack = {
   id: 1,
-  title: "Blinding Lights",
-  artist: "The Weeknd",
-  album: "After Hours",
+  title: "Die With A Smile",
+  artist: "Lady Gaga, Bruno Mars",
+  album: "Die With A Smile",
   image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop",
-  duration: 200, // in seconds
-  currentTime: 45 // in seconds
+  duration: 251, // in seconds (4:11)
+  currentTime: 87 // in seconds
 };
