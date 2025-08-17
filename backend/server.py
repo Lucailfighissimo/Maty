@@ -9,6 +9,7 @@ from pydantic import BaseModel, Field
 from typing import List
 import uuid
 from datetime import datetime
+from spotify_routes import router as spotify_router
 
 
 ROOT_DIR = Path(__file__).parent
@@ -54,6 +55,9 @@ async def get_status_checks():
 
 # Include the router in the main app
 app.include_router(api_router)
+
+# Include Spotify routes
+app.include_router(spotify_router)
 
 app.add_middleware(
     CORSMiddleware,
